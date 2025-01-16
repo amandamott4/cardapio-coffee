@@ -115,12 +115,4 @@ margin: top right bottom left;
 * O valor pode ser um número (em pixels, porcentagens, etc.) ou `auto` para centralizar o elemento.
 * A propriedade `margin` afeta o layout geral da página e deve ser usada com cuidado.
 
-**Este é apenas um exemplo.** A documentação completa deve cobrir todos os tópicos mencionados acima de forma detalhada e organizada.
 
-**Recursos adicionais:**
-* **W3Schools:** https://www.w3schools.com/css/
-* **MDN Web Docs:** https://developer.mozilla.org/en-US/docs/Web/CSS
-
-**Com esta documentação detalhada, você terá um guia completo para aprender CSS e criar designs web incríveis!**
-
-**Gostaria de que eu me aprofundasse em algum tópico específico?**

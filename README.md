@@ -1,4 +1,7 @@
+RESUMO DO CURSO (CSS) - FreeCodeCamp 
 
+---
+CSS - Cascading Style Sheets
 
 ### 1. **Introdução ao CSS**
 * **Definição:** CSS (Cascading Style Sheets) é uma linguagem de estilo usada para descrever a apresentação de um documento HTML.

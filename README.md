@@ -67,4 +67,49 @@ CSS - Cascading Style Sheets
 - **Ajuste Fino de Largura:**
   - Altere a largura (`width`) das classes `flavor` para 75% e `price` para 25%.
 
-  
+### Adicionando Seções e Elementos ao Menu
+- Adicionar uma segunda seção para exibir as sobremesas.
+- Inserir dois elementos `p` com os textos "Donut" e "1.50" na mesma linha.
+
+### Regras de CSS e Classes
+- Adicionar a classe `dessert` à regra com a classe `flavor`.
+- Adicionar padding à classe `menu`:
+  - `padding-left` e `padding-right` com valor de 20px.
+  - `padding-top` e `padding-bottom` com valor de 20px.
+  - Substituir as propriedades de padding individuais por uma única propriedade `padding` com valor de 20px.
+- Adicionar a propriedade `max-width` com valor de 500px à classe `menu`.
+
+### Alterações na Tipografia
+- Adicionar a propriedade `font-family` com valor `sans-serif` ao `body`.
+- Tornar o texto "Est. 2020" em itálico, criando uma classe `established` e aplicando a propriedade `font-style: italic`.
+- Tipografia dos cabeçalhos:
+  - Usar `font-size` de 40px para `h1` e 30px para `h2`.
+
+### Adicionando Elementos e Estruturando o Conteúdo
+- Adicionar um elemento `footer` abaixo do elemento `main`.
+- Dentro do `footer`, adicionar um elemento `p` com um link (elemento `a`) para `https://www.freecodecamp.org`, que abre em uma nova guia (`target="_blank"`).
+
+### Personalização de Elementos
+- Modificar a largura e cor do elemento `hr`.
+  - Mudar a altura do `hr` e a cor de fundo para marrom.
+  - Ajustar a espessura da borda para 5px.
+- Adicionar espaço interno de 20px ao elemento `body` usando a propriedade `padding`.
+- Ajustar margens dos itens do menu:
+  - Usar `margin-top` e `margin-bottom` com valor de 5px.
+  - Adicionar a classe `bottom-line` com `margin-top: 25px` ao segundo elemento `hr`.
+
+### Estilo para o Rodapé
+- Adicionar um comentário de estilo (`/*FOOTER*/`) no final do arquivo CSS.
+- Definir o tamanho da fonte do `footer` para 14px.
+- Tornar os links do `footer` sempre pretos, independentemente de terem sido visitados.
+
+### Manipulação de Estados de Links
+- Customizar a aparência dos links nos estados `visited`, `hover` e `active`.
+
+### Ajustes na Aparência do Menu
+- Aplicar a classe `address` ao elemento `p` contendo o endereço "123 Free Code Camp Drive".
+- Adicionar uma imagem de café abaixo do título "Coffee".
+
+### Alinhamento e Espaçamento de Imagens
+- Usar `display: block` e valores de `margin` apropriados para centralizar a imagem.
+- Ajustar margem superior negativa de -25px para os elementos `img` para melhorar o alinhamento vertical.

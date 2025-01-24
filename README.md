@@ -3,116 +3,68 @@ RESUMO DO CURSO (CSS) - FreeCodeCamp
 ---
 CSS - Cascading Style Sheets
 
-### 1. **Introdução ao CSS**
-* **Definição:** CSS (Cascading Style Sheets) é uma linguagem de estilo usada para descrever a apresentação de um documento HTML.
-* **Objetivo:** Explicar como aplicar estilos a elementos HTML para controlar a aparência de uma página web.
-* **Relação com HTML:** Demonstrar como o CSS trabalha em conjunto com o HTML para criar páginas web visualmente atraentes.
+**Projeto de Menu de Café**
 
-### 2. **Conceitos Fundamentais**
-* **Seletores:**
-    * Seletores de tipo (p, div, h1, etc.)
-    * Seletores de ID (#menu)
-    * Seletores de classe (.flavor)
-    * Seletores combinados (descendente, adjacente, etc.)
-* **Propriedades:**
-    * `color`, `font-size`, `background-color`, `width`, `height`, `margin`, `padding`
-    * Outras propriedades relevantes (ex: `display`, `text-align`, `border`, `border-radius`, `box-shadow`, etc.)
-* **Valores:**
-    * Pixels (px), porcentagens (%), cores (hexadecimal, RGB, nomes), etc.
-* **Unidades de medida:**
-    * Pixels, em, rem, etc.
-    * Diferenças e quando usar cada uma.
-* **Blocos de regras:**
-    * Estrutura básica de um bloco de regras (seletor, propriedades e valores)
-    * Importância do ponto e vírgula
-* **Comentários:**
-    * Como adicionar comentários para melhorar a legibilidade do código
+- **Fundamentos do CSS:**
+  - Neste projeto, você aprenderá os fundamentos do CSS (Cascading Style Sheets) criando um menu de café.
+  - CSS é a linguagem usada para estilizar um documento HTML.
+  - Descreve como os elementos HTML devem ser exibidos na tela.
 
-### 3. **Estrutura de um Documento CSS**
-* **Vinculando um arquivo CSS:**
-    * Uso do elemento `<link>` no cabeçalho do HTML
-    * Atributos `rel` e `href`
-* **Organização do CSS:**
-    * Boas práticas para organizar o CSS em arquivos externos
-    * Uso de pré-processadores (Sass, Less) para maior organização e funcionalidades adicionais
+- **Ponto e Vírgula no CSS:**
+  - O ponto e vírgula (;) é usado para separar as diferentes declarações dentro de um bloco de regras.
+  - Um bloco de regras é iniciado por um seletor seguido por chaves ({}) e contém uma ou mais declarações.
+  - Cada declaração define uma propriedade CSS (como `color`, `font-size`, `background-color`, etc.) e seu valor correspondente.
 
-### 4. **Layout e Posicionamento**
-* **Modelo de caixa:**
-    * Conteúdo, padding, border e margin
-    * Como cada um afeta o tamanho e o posicionamento de um elemento
-* **Display:**
-    * `block`, `inline`, `inline-block`
-    * Diferenças e quando usar cada um
-* **Flexbox:**
-    * Conceito básico e como criar layouts flexíveis
-    * Propriedades importantes (flex-direction, justify-content, align-items, etc.)
-* **Grid:**
-    * Conceito básico e como criar layouts em grid
-    * Propriedades importantes (grid-template-columns, grid-template-rows, etc.)
-* **Posicionamento:**
-    * `static`, `relative`, `absolute`, `fixed`
-    * Como posicionar elementos em relação a outros elementos ou à viewport
+- **Adicionar Estilos:**
+  - Até agora, você estava limitado quanto à apresentação e aparência do conteúdo criado.
+  -Para começar a ter controle, adicione um elemento de estilo dentro do elemento `head`.
+  - Você pode adicionar o mesmo conjunto de estilos a muitos elementos criando uma lista de seletores, separados por vírgulas.
+  - Quando há muitos estilos, é melhor colocá-los em um arquivo separado e vinculá-lo.
 
-### 5. **Responsividade**
-* **Viewport:**
-    * O que é viewport e sua importância para design responsivo
-    * Meta tag `viewport`
-* **Media queries:**
-    * Como criar layouts que se adaptam a diferentes tamanhos de tela
-* **Unidades relativas:**
-    * Porcentagens, em, rem e seus benefícios para design responsivo
+- **Vincular Arquivo CSS:**
+  - É necessário vincular o arquivo `styles.css` para que os estilos sejam aplicados.
+  - Dentro do elemento `head`, adicione um elemento `link` com o atributo `rel` com valor "stylesheet" e o atributo `href` com valor "styles.css".
+  - O elemento `link` deve ser um elemento nulo, sem uma tag final.
 
-### 6. **Tipos de Seletores**
-* **Seletores de tipo:** Selecionam elementos por seu tipo (p, div, h1, etc.)
-* **Seletores de ID:** Selecionam elementos por seu ID único (#menu)
-* **Seletores de classe:** Selecionam elementos por suas classes (.flavor)
-* **Seletores combinados:**
-    * Descendente (espaço)
-    * Adjacente (+)
-    * Irmão (~)
-    * Filho direto (>)
+- **Estilização Responsiva:**
+  - Para que a estilização da página seja semelhante em dispositivos móveis e desktop, adicione um elemento `meta` com um atributo de conteúdo especial.
+  - Exemplo: `<meta name="viewport" content="width=device-width, initial-scale=1.0" />`
 
-### 7. **Outras Propriedades e Conceitos Importantes**
-* **Fontes:** `font-family`, `font-size`, `font-weight`
-* **Cores:** Hexadecimal, RGB, HSL, nomes de cores
-* **Texto:** `text-align`, `text-decoration`, `line-height`
-* **Bordas:** `border`, `border-width`, `border-style`, `border-color`
-* **Arredondamento de cantos:** `border-radius`
-* **Sombras:** `box-shadow`
-* **Transições e animações:** Introdução básica
+- **Mudança de Cor de Fundo:**
+  - Adicione uma outra estilização para alterar a propriedade `background-color` do elemento `body` para marrom.
+  - Caso a cor marrom dificulte a leitura do texto, altere a cor de fundo do `body` para `burlywood`.
 
-### **Documentação Detalhada**
-Para cada tópico, a documentação deve incluir:
-* **Definição:** Explicação clara e concisa do conceito.
-* **Sintaxe:** Exemplos de como usar a propriedade ou o seletor.
-* **Demonstração prática:** Código HTML e CSS simples para ilustrar o conceito.
-* **Observações:** Dicas, truques e considerações importantes.
-* **Exemplos:** Vários exemplos de uso em diferentes cenários.
+- **Elemento `div`:**
+  - O elemento `div` é usado principalmente para fins de layout de design.
+  - Adicione um elemento `div` dentro do elemento `body` e mova todos os outros elementos para dentro desse novo `div`.
+  - Use a propriedade `width` do CSS para evitar que o `div` ocupe toda a largura da página.
 
-**Exemplo de documentação para a propriedade `margin`:**
+- **Comentários no CSS:**
+  - Comentários em CSS se escrevem assim: `/* comment here */`
+  - Na folha de estilo, comente a linha que contém a propriedade e valor `background-color` para estilizar apenas o elemento `#menu`, tornando o fundo branco novamente.
 
-```
-**Margin**
+- **Centralização e Largura:**
+  - O texto está centralizado dentro do elemento `#menu`.
+  - Atualmente, a largura (`width`) do `#menu` é especificada em pixels.
+  - Altere o valor da propriedade `width` para 80%, tornando-a 80% da largura do elemento pai (`body`).
+  - Para centralizar o `#menu` horizontalmente, defina as propriedades `margin-left` e `margin-right` como `auto`.
 
-A propriedade `margin` define o espaço ao redor de um elemento.
+- **Seletor de Classe no CSS:**
+  - Os seletor de classe é definido por um nome com um ponto na frente: `.class-name { }`
+  - Aplique a estilização da classe removendo o atributo `id` e adicionando um atributo `class` ao `div`, com o valor `menu`.
+  - Adicione a propriedade `background-image` e defina seu valor como `url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg)`.
 
-**Sintaxe:**
-```css
-margin: top right bottom left;
-```
+- **Elementos do Menu e Artigos:**
+  - Adicione um elemento `article` vazio sob o título de Café.
+  - Os elementos `article` contêm múltiplos elementos com informações relacionadas, como sabor e preço de café.
+  - Use suas novas classes para alinhar o texto da esquerda (`.flavor`) e direita (`.price`).
 
-**Exemplo:**
-```css
-.box {
-  margin: 20px; /* Margem de 20px em todos os lados */
-  margin-top: 10px; /* Margem superior de 10px */
-  margin-right: 30px; /* Margem direita de 30px */
-  /* ... e assim por diante */
-}
-```
+- **Estilização Inline:**
+  - Elementos `p` são de nível de bloco, ocupando toda a largura do elemento pai.
+  - Adicione o seletor `.item p { }` e defina a propriedade `display` como `inline-block` para que os elementos `p` se comportem como inline.
+  - Ajuste a propriedade `width` das classes `flavor` e `price` para 49%.
 
-**Observações:**
-* O valor pode ser um número (em pixels, porcentagens, etc.) ou `auto` para centralizar o elemento.
-* A propriedade `margin` afeta o layout geral da página e deve ser usada com cuidado.
+- **Ajuste Fino de Largura:**
+  - Altere a largura (`width`) das classes `flavor` para 75% e `price` para 25%.
 
-
+  
